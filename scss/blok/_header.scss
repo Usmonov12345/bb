@@ -1,3 +1,86 @@
+
+.site-header{
+    background: #163A24;
+
+    width: 100%;
+}
 .header{
-    display: flex;
+padding: 10px 0;
+    &__hero-item{
+        display: flex;
+
+            &-list{
+            margin-left: 20px;
+            a{
+            color: aliceblue;
+            &:hover{
+                color: black;
+            }
+
+            }
+        }
+     
+    }
+
+    &__btn{
+        padding: 10px;
+        border-radius: 20px;
+        background-color:
+        #198C36 ;
+        color: aliceblue;
+        &:active{
+            color: black;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 786px) {
+    
+.site-header{
+    background-color:
+    #198c366c ;
+position: fixed;
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+padding: 10px 0;
+    &__hero-item{
+
+            &-list{
+            margin-left: 20px;
+            a{
+            color: rgb(0, 0, 0);
+            &:hover{
+                color: rgb(130, 0, 0);
+            }
+
+            }
+        }
+     
+    }
+
+    &__btn{
+        padding: 10px;
+        border-radius: 20px;
+        background-color:
+        #0b6931 ;
+        color: rgb(0, 0, 0);
+        margin-left:100px;
+        &:active{
+            color: rgb(190, 190, 190);
+        }
+    }
+
+}
 }

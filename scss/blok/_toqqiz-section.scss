@@ -1,0 +1,39 @@
+.toqqiz-section{
+    padding: 120px 0;
+    .sara{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        &__war{
+            padding: 20px;
+
+
+
+            &__title{
+                font-size: 50px;
+                color: #163A24;
+                padding: 10px;
+ 
+            }
+
+            &__text{
+                color: rgba(0, 0, 0, 0.671);
+                font-size: 23px;
+                padding: 10px;
+            }
+            &__btn{
+                width: 170px;
+                margin-top: 40px;
+                padding: 12px;
+                margin-left: 10px;
+                background-color: #066f2e;
+                border-radius: 20px;
+                border: none;
+                color: aliceblue;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.one-section{
+    background-color:#fff;
+    padding: 30px;
+
+
+}
+.box{
+    &-title{
+        font-size: 40px;
+        color: #163A24;
+        width: 300px;
+
+    }
+    &-text{
+        margin-top: 50px;
+        font-size: 20px;
+        color: #163A24;
+        width: 500px;
+
+    }
+}
+
+@media screen and (max-width: 968px)  {
+    .one-section{
+        background-color:rgb(157, 136, 136);
+        // padding: 30px;
+    
+    
+    }
+    .box{
+
+
+        &__image{
+            width: 300px;
+            margin-left: 70px;
+        }
+        &-title{
+            font-size: 30px;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 80px;
+            width: 300px;
+            margin-left: 70px;
+        }
+        &-text{
+
+            margin-top: 50px;
+            font-size: 20px;
+            color: #2a2f2c;
+            text-align: center;
+            width: 300px;
+            margin-left: 70px;
+    
+        }
+    }
+}

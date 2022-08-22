@@ -1,0 +1,25 @@
+.four-section{
+    background-color: #163A24; 
+    padding: 66px 0 156px 0;   
+   .boxx h2{
+
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    color: azure;
+   }
+   .boxx1 {
+    margin-top: 100px;
+   }
+    .boxx1 ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: -40px;
+        text-align: center;
+    }
+    .boxx1 ul li{
+color: aliceblue;
+font-size: 20px;
+    }
+}

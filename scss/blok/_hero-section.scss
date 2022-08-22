@@ -1,0 +1,52 @@
+.hero-section{
+    background: #163A24;
+
+
+
+}
+.card{
+
+    &-title{
+        color: aliceblue;
+        font-size: 60px;
+    }
+    &-text{
+        margin-top: 50px;
+        color: aliceblue;
+        font-size: 26px;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .hero-section{
+        background: #4c4f4d;
+    
+    
+    
+    }
+    .card{
+    
+
+        &__image{
+            width: 300px;
+            margin-left: 90px;
+
+        }
+        &-title{
+            color: aliceblue;
+            font-size: 30px;
+            text-align: center;
+        }
+        &-text{
+            margin-top: 100px;
+            text-align: center;
+
+            color: aliceblue;
+            font-size: 26px;
+    
+        }
+    
+    }    
+}

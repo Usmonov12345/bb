@@ -1,0 +1,49 @@
+.card1{
+    
+    &__title{
+        font-family: 'Recoleta';
+        margin-left: 300px;
+        margin-top: 100px;
+        font-size: 60px;
+        color: #163A24;
+        padding: 20px;
+        text-shadow: 3px 3px 3px rgba(62, 0, 0, 0.667);
+
+    }
+  
+}
+.card11{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__image{
+      margin-top: 100px;
+      padding: 40px;
+     }
+}
+
+
+@media screen  and (max-widht: 786px ){
+    .card1{
+    
+        &__title{
+            font-family: 'Recoleta';
+            // margin-left: 00px;
+            // margin-top: 100px;
+            font-size: 20px;
+            color: #163A24;
+            text-shadow: 3px 3px 3px rgba(62, 0, 0, 0.667);
+    
+        }
+      
+    }
+    .card11{
+        display: inline-block;
+        justify-content: space-around;
+        align-items: center;
+        &__image{
+          margin-top: 100px;
+         }
+    }
+    
+}

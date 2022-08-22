@@ -1,0 +1,18 @@
+.hero{
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+     text-decoration: none;
+    list-style: none;
+}
+
+@media screen and (max-width: 768px ) {
+    .hero{
+        display:inline;
+        justify-content:space-around;
+        align-items: center; 
+         text-decoration: none;
+        list-style: none;
+    }
+}
+

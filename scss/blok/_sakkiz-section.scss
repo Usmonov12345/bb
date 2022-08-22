@@ -1,0 +1,56 @@
+.sakkiz-section{
+    background: #F2EFE6;
+    padding: 114px 0;
+    &__h2{
+        text-align: center;
+        font-size: 39px;
+
+    }
+    
+    &__text{
+        text-align: center;
+        font-size: 23px;
+        padding: 10px;
+        color: rgba(0, 0, 0, 0.607);
+    }
+
+    .car{
+        padding: 60px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+
+        &__red{
+            
+            padding: 20px ;
+           
+          p{
+            font-size: 20px;
+            color: rgba(0, 0, 0, 0.499);
+          }
+          h2{
+            font-size: 30px;
+            margin-top: 10px;
+          }
+        }
+
+        &__btn{
+            background: #198C36;
+            color: aliceblue;
+            padding: 15px;
+            border: none;
+            border-bottom: 4px solid rgba(0, 0, 0, 0.377);
+            box-shadow: 8px 9px 10px rgba(0, 0, 0, 0.203);
+
+            border-radius: 20px;
+            margin-left: 500px;
+            
+             &:active{
+                border-bottom: 4px solid #000;
+                box-shadow: 8px 9px 10px rgba(0, 0, 0, 0.358);
+             }
+        }
+        
+    }
+    
+}

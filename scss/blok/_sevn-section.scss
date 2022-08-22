@@ -1,0 +1,49 @@
+.sevn-section{
+    background: #E5E5E5;
+    padding: 112px 0; 
+
+     .sevn{
+
+        &__title{
+            text-align: center;
+            font-size: 36px;
+
+        }
+
+        &__text{
+            text-align: center;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+     }
+
+    .sevn2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+   
+
+    }
+
+    .box{
+        margin-top: 150px;
+        border-radius: 10px;
+        width: 300px;
+        box-shadow: 5px 5px 20px #00000041;
+        padding: 30px;
+        
+        h2{
+            font-size: 30px;
+        }
+        li{
+            font-size: 20px;
+            padding: 10px;
+        }
+    }
+
+
+
+
+
+}

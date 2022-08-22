@@ -1,0 +1,30 @@
+.five-section{
+    padding: 104px 0;
+    background: #F2EFE6;
+
+
+    .five{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        &__title{
+            color: rgb(0, 0, 0);
+            width: 500px;
+            font-size: 36px;
+            text-align: center;
+        }
+
+        &__text{
+            color: rgba(0, 0, 0, 0.467);
+            padding: 20px;
+            width: 600px;
+            text-align: center;
+        }
+
+        &__img{
+            width: 100%;
+        }
+    }
+}

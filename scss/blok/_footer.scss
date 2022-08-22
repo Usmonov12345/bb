@@ -1,0 +1,52 @@
+.footer{
+    padding: 10px;
+
+
+    .foot1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 60px;
+
+        &__title{
+            font-size: 30px;
+            margin-left: 260px;
+            color: black;
+        }
+
+        &__img{
+        
+            color: green;
+        }
+        &__img1{
+        background-color: rgba(0, 0, 0, 0.202);
+        width: 150px;
+        border-radius: 20px;
+        padding: 20px;
+        }
+    }
+
+    .foot2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+
+
+        &__link{
+            color: green;
+        }
+
+        &__ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+             margin-left: -10px;
+        }
+        li{
+            margin-left: 20px;
+            color: green;
+
+        }
+    }
+}
